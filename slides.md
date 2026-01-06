@@ -70,7 +70,7 @@ slideNumber: true
 Scattering of electromagnetic waves in nature
 </div> -->
 
-<div v-click="1" class="grid grid-cols-3 gap-15 mt-10">
+<div class="grid grid-cols-3 gap-15 mt-10">
   <figure class="text-center">
     <img src="/figures/scattering/sky_unsplash.jpg" alt="Image 1" class="w-full h-auto">
     <figcaption class="text-3 mt-2">
@@ -96,7 +96,7 @@ Scattering of electromagnetic waves in nature
   </figure>
 </div>
 
-<div v-click="2" class="grid grid-cols-3 gap-15 mt-10">
+<div v-click="1" class="grid grid-cols-3 gap-15 mt-10">
   <figure class="text-center">
     <img src="/figures/energy-budget.jpg" alt="Image 1" class="w-full h-auto">
     <figcaption class="text-3 mt-2">
@@ -126,7 +126,11 @@ Scattering of electromagnetic waves in nature
   <SlideCurrentNo />
 </div>
 
----
+
+<!--
+
+
+
 
 
 
@@ -184,11 +188,13 @@ Scattering of electromagnetic waves in nature
   <SlideCurrentNo />
 </div>
 
+-->
+
 ---
 layout: default
 ---
 
-# Macroscopic Maxwell Equations and LBM Framework
+## Macroscopic Maxwell Equations and LBM Framework
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 
@@ -466,7 +472,7 @@ $$
 
 ---
 
-## Scattering from a dielectric circular cylinder
+## Scattering from a circular cylinder
 
 Considering size
 
@@ -580,6 +586,17 @@ $$
 
 
 
+<v-drag pos="773,29,160,_">
+<div class="text-3 text-left">
+$$
+\sigma = \lim_{r \to \infty} 2 \pi r \frac{|\mathbf{E}^S|^2}{|\mathbf{E}^I|^2}
+$$
+</div>
+</v-drag>
+
+
+
+
 
 
 <div class="abs-br m-2 text-3">
@@ -588,7 +605,7 @@ $$
 
 ---
 
-## Scattering from a dielectric circular cylinder
+## Scattering from a circular cylinder
 
 Considering size
 
@@ -728,6 +745,16 @@ $$
 <div class="text-3 text-left">
 $$
 \varepsilon_r = 20
+$$
+</div>
+</v-drag>
+
+
+
+<v-drag pos="773,29,160,_">
+<div class="text-3 text-left">
+$$
+\sigma = \lim_{r \to \infty} 2 \pi r \frac{|\mathbf{E}^S|^2}{|\mathbf{E}^I|^2}
 $$
 </div>
 </v-drag>
@@ -897,7 +924,7 @@ $$
 </div>
 
 
-<v-drag pos="768,33,90,_">
+<v-drag pos="647,20,90,_">
 <div v-click="1"  class="text-3 text-left">
 $$
 \varepsilon_r = 2
@@ -942,6 +969,16 @@ $$
 <div v-click="1"  class="text-3 text-left">
 $$
 a / \lambda = 5
+$$
+</div>
+</v-drag>
+
+
+
+<v-drag pos="794,12,160,_">
+<div v-click="1"  class="text-3 text-left">
+$$
+\sigma_{3D} = \lim_{r \to \infty} 4 \pi r^2 \frac{|\mathbf{E}^S|^2}{|\mathbf{E}^I|^2}
 $$
 </div>
 </v-drag>
